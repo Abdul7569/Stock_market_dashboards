@@ -35,7 +35,9 @@ stock-market-dashboard/
 │
 └── README.md                    # You're here!
 
-## 🚀 How This Project Works
+---
+
+**## 🚀 How This Project Works**
 
 This stock market dashboard project follows a simple but powerful data pipeline to fetch, process, store, and visualize stock data using the following steps:
 
