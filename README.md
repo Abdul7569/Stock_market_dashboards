@@ -14,30 +14,6 @@ This project demonstrates an end-to-end data pipeline for stock market analysis.
 - 📈 **Visualization**: Power BI for dashboards and reporting
 
 ---
-
-## 📂 Project Structure
-
-```plaintext
-stock-market-dashboard/
-│
-├── data_pipeline/
-│   ├── extract.py            # Python script to pull data from Alpha Vantage
-│   ├── load.py       # data loading to postgres
-    ├── pipeline.py
-│
-├── powerbi/
-│   └── stock_dashboard.pbix     # Power BI file (connected to PostgreSQL)
-│
-├── images/
-│   ├── dashboard_preview.png    # Dashboard preview screenshot
-│
-│   └── candle_sticks.png # Technical indicators screenshot
-│
-└── README.md
-
-
----
-
 ## 🚀 How This Project Works
 
 This stock market dashboard project follows a simple but powerful data pipeline to fetch, process, store, and visualize stock data using the following steps:
@@ -94,10 +70,27 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 
 This process enables dynamic, data-driven analysis of stock market data in an automated and visual way.
 # 📊 Stock Market Dashboard with Alpha Vantage, PostgreSQL & Power BI
+## 📂 Project Structure
 
-This project demonstrates an end-to-end data pipeline for stock market analysis. It integrates real-time data from the **Alpha Vantage API**, processes and stores it in a **PostgreSQL database**, and visualizes insights using **Power BI dashboards**.
+```plaintext
+stock-market-dashboard/
+│
+├── data_pipeline/
+│   ├── extract.py            # Python script to pull data from Alpha Vantage
+│   ├── load.py       # data loading to postgres
+    ├── pipeline.py
+│
+├── powerbi/
+│   └── stock_dashboard.pbix     # Power BI file (connected to PostgreSQL)
+│
+├── images/
+│   ├── dashboard_preview.png    # Dashboard preview screenshot
+│
+│   └── candle_sticks.png # Technical indicators screenshot
+│
+└── README.md
 
-![Dashboard Preview](images/dashboard_preview.png)
 
 ---
+
 
