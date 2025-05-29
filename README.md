@@ -35,9 +35,10 @@ stock-market-dashboard/
 │
 └── README.md                    # You're here!
 
+```plaintext
 ---
 
-**## 🚀 How This Project Works**
+## 🚀 How This Project Works
 
 This stock market dashboard project follows a simple but powerful data pipeline to fetch, process, store, and visualize stock data using the following steps:
 
@@ -89,6 +90,8 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 | Transform    | Pandas, Python            |
 | Load         | PostgreSQL                |
 | Visualize    | Power BI Desktop          |
+
+---
 
 ---
 
