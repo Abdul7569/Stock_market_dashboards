@@ -23,74 +23,72 @@ stock-market-dashboard/
 ├── data_pipeline/
 │   ├── extract.py            # Python script to pull data from Alpha Vantage
 │   ├── load.py       # data loading to postgres
-    ├── pipeline.py 
+    ├── pipeline.py
 │
 ├── powerbi/
 │   └── stock_dashboard.pbix     # Power BI file (connected to PostgreSQL)
 │
 ├── images/
 │   ├── dashboard_preview.png    # Dashboard preview screenshot
-│   
+│
 │   └── candle_sticks.png # Technical indicators screenshot
 │
-└── README.md                    # You're here!
+└── README.md
 
 
 ---
 
-**## 🚀 How This Project Works**
+## 🚀 How This Project Works
 
 This stock market dashboard project follows a simple but powerful data pipeline to fetch, process, store, and visualize stock data using the following steps:
 
 ---
-** 1. 🧩 Extract Stock Data from Alpha Vantage**
+### 1. 🧩 Extract Stock Data from Alpha Vantage
 
-- Utilizes the [Alpha Vantage API](https://www.alphavantage.co/) to pull **real-time and historical stock market data**.
-- API requests are made using Python's `requests` library.
-- Data is retrieved in CSV format depending on the API endpoint used.
-
----
-
-**2. 🧹 Clean & Transform the Data with Python**
-
-- The raw API response is normalized using **pandas**.
-- Null values, duplicates, and formatting issues are handled during preprocessing.
-- The cleaned data is prepared in a format suitable for relational storage.
+* Utilizes the [Alpha Vantage API](https://www.alphavantage.co/) to pull **real-time and historical stock market data**.
+* API requests are made using Python's `requests` library.
+* Data is retrieved in CSV format depending on the API endpoint used.
 
 ---
 
-** 3. 🗄️ Load into PostgreSQL**
+### 2. 🧹 Clean & Transform the Data with Python
 
-- Cleaned stock data is stored in a local **PostgreSQL database**.
-- Tables include:
-  - `stocks`: static information about the stock symbol
-  - `prices`: historical price and volume data
-  - `daily_summary`: OHLC data and other metrics
-- The data is updated periodically via Python scripts.
-
----
-**
- 4. 📊 Visualize with Power BI**
-
-- Power BI connects directly to the PostgreSQL database using its native connector.
-- Dashboards are built to display:
-  - **Stock price trends**
-  - **Daily volume**
-  - **Technical indicators** like MA10, MA30, ma05
-- All visuals are interactive and update with refreshed data from PostgreSQL.
+* The raw API response is normalized using **pandas**.
+* Null values, duplicates, and formatting issues are handled during preprocessing.
+* The cleaned data is prepared in a format suitable for relational storage.
 
 ---
 
-** 🛠️ Summary of Tools Used**
+### 3. 🗄️ Load into PostgreSQL
+
+* Cleaned stock data is stored in a local **PostgreSQL database**.
+* Tables include:
+    * `stocks`: static information about the stock symbol
+    * `prices`: historical price and volume data
+    * `daily_summary`: OHLC data and other metrics
+* The data is updated periodically via Python scripts.
+
+---
+
+### 4. 📊 Visualize with Power BI
+
+* Power BI connects directly to the PostgreSQL database using its native connector.
+* Dashboards are built to display:
+    * **Stock price trends**
+    * **Daily volume**
+    * **Technical indicators** like MA10, MA30, MA05
+* All visuals are interactive and update with refreshed data from PostgreSQL.
+
+---
+
+## 🛠️ Summary of Tools Used
 
 | Stage        | Tool/Technology         |
-|--------------|--------------------------|
+| :----------- | :---------------------- |
 | Extract      | Alpha Vantage API, Python |
 | Transform    | Pandas, Python            |
 | Load         | PostgreSQL                |
 | Visualize    | Power BI Desktop          |
-
----
 
 ---
 
