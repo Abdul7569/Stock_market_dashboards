@@ -35,16 +35,15 @@ stock-market-dashboard/
 │
 └── README.md                    # You're here!
 
-```plaintext
+
 ---
 
-## 🚀 How This Project Works
+**## 🚀 How This Project Works**
 
 This stock market dashboard project follows a simple but powerful data pipeline to fetch, process, store, and visualize stock data using the following steps:
 
 ---
-
-### 1. 🧩 Extract Stock Data from Alpha Vantage
+** 1. 🧩 Extract Stock Data from Alpha Vantage**
 
 - Utilizes the [Alpha Vantage API](https://www.alphavantage.co/) to pull **real-time and historical stock market data**.
 - API requests are made using Python's `requests` library.
@@ -52,7 +51,7 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 
 ---
 
-### 2. 🧹 Clean & Transform the Data with Python
+**2. 🧹 Clean & Transform the Data with Python**
 
 - The raw API response is normalized using **pandas**.
 - Null values, duplicates, and formatting issues are handled during preprocessing.
@@ -60,7 +59,7 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 
 ---
 
-### 3. 🗄️ Load into PostgreSQL
+** 3. 🗄️ Load into PostgreSQL**
 
 - Cleaned stock data is stored in a local **PostgreSQL database**.
 - Tables include:
@@ -70,8 +69,8 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 - The data is updated periodically via Python scripts.
 
 ---
-
-### 4. 📊 Visualize with Power BI
+**
+ 4. 📊 Visualize with Power BI**
 
 - Power BI connects directly to the PostgreSQL database using its native connector.
 - Dashboards are built to display:
@@ -82,7 +81,7 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 
 ---
 
-## 🛠️ Summary of Tools Used
+** 🛠️ Summary of Tools Used**
 
 | Stage        | Tool/Technology         |
 |--------------|--------------------------|
