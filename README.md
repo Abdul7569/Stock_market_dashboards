@@ -3,6 +3,7 @@
 This project demonstrates an end-to-end data pipeline for stock market analysis. It integrates real-time data from the **Alpha Vantage API**, processes and stores it in a **PostgreSQL database**, and visualizes insights using **Power BI dashboards**.
 
 ![Dashboard Preview](images/dashboard_preview.png)
+![Dashboard Preview](images/candlestick.png)
 
 ---
 
