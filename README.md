@@ -79,7 +79,9 @@ stock-market-dashboard/
 ├── data_pipeline/
 │   ├── extract.py            # Python script to pull data from Alpha Vantage
 │   ├── load.py       # data loading to postgres
-    ├── pipeline.py
+│   ├── pipeline.py
+│   ├── transform.py
+
 │
 ├── powerbi/
 │   └── stock_dashboard.pbix     # Power BI file (connected to PostgreSQL)
