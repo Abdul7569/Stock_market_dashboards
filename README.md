@@ -93,4 +93,11 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 ---
 
 This process enables dynamic, data-driven analysis of stock market data in an automated and visual way.
+# 📊 Stock Market Dashboard with Alpha Vantage, PostgreSQL & Power BI
+
+This project demonstrates an end-to-end data pipeline for stock market analysis. It integrates real-time data from the **Alpha Vantage API**, processes and stores it in a **PostgreSQL database**, and visualizes insights using **Power BI dashboards**.
+
+![Dashboard Preview](images/dashboard_preview.png)
+
+---
 
