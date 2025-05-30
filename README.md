@@ -13,6 +13,7 @@ This project demonstrates an end-to-end data pipeline for stock market analysis.
 - 🐍 **ETL Script**: Python for API extraction, data cleaning & formatting
 - 🛢️ **Database**: PostgreSQL to store structured stock data
 - 📈 **Visualization**: Power BI for dashboards and reporting
+- 🔗 **Data Gateway**: On-Premises Gateway to securely connect Power BI Service to local PostgreSQL
 
 ---
 ## 🚀 How This Project Works
@@ -46,8 +47,12 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 * The data is updated periodically via Python scripts.
 
 ---
+### 4. 4. 🔌 Connect with Power BI via On-Premises Gateway
+*Power BI Desktop connects locally to PostgreSQL for dashboard development
 
-### 4. 📊 Visualize with Power BI
+*Power BI Service uses On-Premises Data Gateway to schedule and refresh reports from the local PostgreSQL database securely
+---
+### 5. 📊 Visualize with Power BI
 
 * Power BI connects directly to the PostgreSQL database using its native connector.
 * Dashboards are built to display:
