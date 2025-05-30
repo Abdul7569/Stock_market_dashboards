@@ -4,6 +4,7 @@ This project demonstrates an end-to-end data pipeline for stock market analysis.
 
 ![Dashboard Preview](images/dashboard_preview.png)
 ![Dashboard Preview](images/candlestick.png)
+![Dashboard Preview](images/APIpull.png)
 
 ---
 
