@@ -48,9 +48,9 @@ This stock market dashboard project follows a simple but powerful data pipeline 
 
 ---
 ### 4. 4. 🔌 Connect with Power BI via On-Premises Gateway
-*Power BI Desktop connects locally to PostgreSQL for dashboard development
+* Power BI Desktop connects locally to PostgreSQL for dashboard development
 
-*Power BI Service uses On-Premises Data Gateway to schedule and refresh reports from the local PostgreSQL database securely
+* Power BI Service uses On-Premises Data Gateway to schedule and refresh reports from the local PostgreSQL database securely
 ---
 ### 5. 📊 Visualize with Power BI
 
